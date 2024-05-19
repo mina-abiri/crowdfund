@@ -1,0 +1,188 @@
+@font-face {
+    font-family: 'Commissioner-Regular';
+    src: url(./fonts/Commissioner-Regular.ttf);
+}
+@font-face {
+    font-family: 'Commissioner-Medium';
+    src: url(./fonts/Commissioner-Medium.ttf);
+}
+@font-face {
+    font-family: 'Commissioner-Bold';
+    src: url(./fonts/Commissioner-Bold.ttf);
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Commissioner-Bold';
+}
+
+html, body{
+    height: 100%;
+    box-sizing: border-box;
+    background-color:  hsl(0, 3%, 94%);
+    font-size: 16px;
+    font-family: 'Commissioner-Regular';
+}
+.header{
+    background-image: url("../images/image-hero-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3em 8em;
+}
+.ham-menu{
+    display: none;
+}
+nav ul{
+    display: flex;
+    gap: 2.5em;
+    list-style-type: none;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.bookmark{
+    margin: -5em auto;
+    padding: 2em;
+    background-color: #ffffff;
+    max-width: 50%;
+    text-align: center;
+    border-radius: 7px;
+    position: relative;
+    box-shadow: 2px 2px 20px rgb(163, 163, 163);
+}
+.bookmark p{
+    color: hsl(0, 0%, 48%);
+}
+.img-card{
+    position: absolute;
+    top: -2em;
+    right: 48%;
+}
+.buttom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 3.5em;
+}
+.green-buttom{
+    background-color: hsl(176, 50%, 47%);
+    padding: 1em 2.1em;
+    color: #ffffff;
+    border-radius: 50em;
+}
+.gray-buttom{
+    background-color: hsl(0, 0%, 89%);
+    padding: 1.1em 2em 1.1em 4.5em;
+    color:  hsl(0, 0%, 48%);
+    border-radius: 50em;
+    position: relative;
+    
+}
+.icon-bookmark{
+    position: absolute;
+    left: 0px;
+    top: -2.5px;
+}
+.section2{
+    margin: 6em auto;
+    padding: 1em 2em 3em;
+    background-color: #ffffff;
+    width: 50%;
+    border-radius: 7px;
+    box-shadow: 2px 2px 20px rgb(163, 163, 163);
+    display: flex;
+    flex-direction: column;
+}
+.progressBar{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    position: relative;
+    
+}
+.detailBar p{
+    color: hsl(0, 0%, 48%);
+}
+.verLine1{
+    left: 40%;
+    border-left: 2px solid black;
+    height: 70px;
+    position: absolute;
+    opacity: 0.1;
+}
+.verLine2{
+    right: 30%;
+    border-left: 2px solid black;
+    height: 70px;
+    position: absolute;
+    opacity: 0.1;
+}
+
+.progress{
+    margin-top: 2.5em;
+    width: 100%;
+    padding: 0.75em;
+    /* appearance: none;
+    border: none; */
+}
+/* .progress::-webkit-progress-bar-value {
+    background: red;
+    border: none;
+    border-radius: 16px;
+}
+
+.progress::-webkit-progress-bar {
+    background: blue;
+    border: none;
+    border-radius: 16px;
+} */
+
+
+.section-about{
+    border-radius: 7px;
+    margin: -5em auto;
+    padding: 2em;
+    background-color: #ffffff;
+    width: 50%;
+    box-shadow: 2px 2px 20px rgb(163, 163, 163);
+}
+.section-about p{
+   color: hsl(0, 0%, 48%);
+}
+.title-about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Commissioner-Medium';
+}
+.left-title{
+    color: hsl(176, 50%, 47%);
+}
+.about{
+    border: 1px solid rgb(207, 197, 197);
+    padding:1.5em;
+    border-radius: 6px;
+    margin-bottom: 1em;
+}
+.footer-about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-side{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.last-card{
+    opacity: 0.5;
+}

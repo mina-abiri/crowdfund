@@ -1,0 +1,95 @@
+.header{
+    background-image: url("../images/image-hero-mobile.jpg");  
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em 3em;
+}
+header nav{
+    display: none;
+}
+.ham-menu{
+    display: block;
+}
+
+
+.bookmark{
+    width: 70%;
+    padding: 1.5em;
+}
+.bookmark h1{
+    font-size: 22px;
+    font-weight: bold;
+}
+.gray-buttom{
+    background-color: inherit;
+    padding: inherit;
+    color:  inherit;
+    border-radius: inherit;
+    position: inherit;
+    
+}
+.gray-buttom span{
+    display: none;
+}
+.icon-bookmark{
+    position: inherit;
+    
+}
+.buttom{
+    padding: 0em 0.5em;
+}
+
+.img-card {
+
+    right: 45%;
+}
+
+.progressBar{
+    flex-direction: column;
+}
+
+.section2 {
+    text-align: center;
+    width: 70%;
+    padding: 1.5em;
+}
+
+.verLine1 {
+    top: 33%;
+    left: 12%;
+    border-top: 2px solid black;
+    width: 75%;
+    border-left: inherit;
+    height: inherit;
+}
+
+.verLine2 {
+    top: 68%;
+    left: 12%;
+    border-top: 2px solid black;
+    width: 75%;
+    border-left: inherit;
+    height: inherit;
+}
+
+progress {
+    margin-top: 0.5em ;
+    padding: 0.75em;
+}
+
+.title-about {
+    flex-direction: column;
+}
+
+.section-about{
+    width: 77%;
+    padding: 1.5em;
+    box-sizing: border-box;
+
+}
+.title-about {
+  align-items: inherit;
+
+}
